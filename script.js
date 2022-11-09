@@ -18,13 +18,13 @@ console.log(countAndSum(array));
 // 2. Знайти мінімальний елемент масиву та його порядковий номер.
 let minNumber = Math.min(...array);
 console.log(minNumber);
-console.log(array.indexOf(minNumber)+1);
+console.log(array.indexOf(minNumber));
 
 
 // 3. Знайти максимальний елемент масиву та його порядковий номер.
 let maxNumber = Math.max(...array);
 console.log(maxNumber);
-console.log(array.indexOf(maxNumber)+1);
+console.log(array.indexOf(maxNumber));
 
 
 // 4. Визначити кількість негативних елементів.
