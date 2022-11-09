@@ -100,5 +100,5 @@ console.log(result3);
     const maxNumberArray = Math.max(...array);
     // console.log(maxNumberArray);
     // console.log(array.indexOf(maxNumber));
-    const newArray = array.map(v => v == maxNumberArray ? v : 0);
+    const newArray = array.map(number => number == maxNumberArray ? number : 0);
     console.log(newArray);
